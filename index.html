@@ -86,6 +86,14 @@
           
         </li>
       
+        <li class="nav-item" data-path="/categories/">
+          
+            <a href="/categories/" target="_self">
+              分类
+            </a>
+          
+        </li>
+      
         <li class="nav-item" data-path="/tags/">
           
             <a href="/tags/" target="_self">
@@ -171,7 +179,7 @@
   <div class="post">
     <h1 class="article-title">
       <a href="/undefined/test/">
-        <span>test</span>
+        <span>测试文章标题</span>
       </a>
     </h1>
     <!-- PC端文章信息 -->
@@ -186,6 +194,13 @@
         发布 : 2018-12-19
       </span>
       
+        <span>
+        分类 :
+          <a href="/categories/文章分类/">
+            文章分类
+          </a>
+        </span>
+      
       
         <span>
           浏览 : <span class="article-timer" data-identity="test"></span>
@@ -196,27 +211,39 @@
     <!-- 文章简介 -->
     <div class="article-content">
       <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
-        
-      </div>
+        <p>测试文章的摘要内容<br>1<br>2<br>3<br>4<br>5<br>
+      </p></div>
     </div>
     <div class="article-footer">
       <div class="article-meta pull-left">
         <!-- 分类pc端可见 -->
         <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/文章分类/">
+              文章分类
+            </a>
+          </span>
+          
         <span>
           
             <i class="iconfont icon-06tags"></i>标签:
             
               <span class="span--tag">
-                <a href="/tags/标签1-标签2/">
-                  #标签1 标签2
+                <a href="/tags/标签1/">
+                  #标签1
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/标签2/">
+                  #标签2
                 </a>
               </span>
             
                     
         </span>
-      </span></div>
+      </div>
       
         <div class="article-meta pull-right">
           <span class="pc-view">
@@ -520,6 +547,8 @@ if(true){
     <br>
     Theme - <a href="https://github.com/dongyuanxin/theme-bmw">BMW</a> | Made With 💗 | Powered by <a href="https://godbmw.com/">GodBMW</a>
     <br>
+    
+      <a href="https://www.google.com/analytics/" target="_blank">Google Analytics</a>提供统计服务
     
   </p>
 </footer>
